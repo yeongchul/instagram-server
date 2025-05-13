@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
     @GetMapping("/")
     public String home() {
-        return "Hello, World Deploy2!";
+        return "Hello, World! Docker Deploy!";
     }
 }
